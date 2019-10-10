@@ -8,6 +8,9 @@ import {
   Alert
 } from 'react-native';
 
+// 3.2 Make your todos clickable such that they call the
+// delete function in parent when pressed
+
 export default function ToDo(props) {
   return (
     <View style={styles.container}>
